@@ -1,0 +1,130 @@
+public class Conditionals {
+    public static void main(String[] args){
+
+        // 1. if Statement: Executes code only when a condition is true.
+
+        int dailyPractice = 12;
+        if(dailyPractice >= 10){
+            System.out.println("Good consistency!");
+        }
+  /*    Condition:
+        dailyPractice > =10
+        12 >= -> true -> block executes
+ */
+
+      // 2. if-else Statement: Executes one block is true, another if else.
+
+        int score = 42;
+
+        if(score >= 50){
+            System.out.println("Pass");
+        }else{
+            System.out.println("Fail");
+        }
+/*
+    Explanation:
+    42 >= 50 -> false -> else block runs
+ */
+
+       // 3. if-else-if Ladder: Used when multiple conditions exists.
+
+        int accuracy = 78;
+
+        if(accuracy >= 90){
+            System.out.println("Excellent");
+        }else if(accuracy >= 75){
+            System.out.println("Good");
+        }else if(accuracy >= 60){
+            System.out.println("Average");
+        }else{
+            System.out.println("Needs Improvement");
+        }
+/*
+Explanation:
+accuracy = 78
+>= 90 -> false
+>= 75 -> true -> stops here
+ */
+
+       // 4. Nested if-else: Used when conditions depend on each other.
+
+        boolean hasSubscription = true;
+        int solvedProblems = 220;
+
+        if(hasSubscription){
+            if(solvedProblems >= 200){
+                System.out.println("Unlock Advanced Sheet");
+            }else{
+                System.out.println("Practice More Problems");
+            }
+        }else{
+            System.out.println("Upgrade to Premium");
+        }
+ /*
+ Explanation:
+ Outer condition checks subscription.
+ Inner condition checks progress.
+  */
+
+           // 5. Ternary Operator: shortcut for if-else.
+
+            int streakDays = 35;
+
+            String status = (streakDays >= 30) ? "Consistent" : "Irregular";
+            System.out.println(status);
+
+/*Explanation:
+35 >= 30 -> true so: status = "Consistent"
+ */
+
+          // 6. Switch Statements: Used when multiple conditions depend on a single variable, Cleaner than long if-else ladders.
+
+     /* Rules of Switch
+        1. Expression must be: int, char, String, enum
+        2. case values must be constants
+        3. break is used to stop execution
+        4. default is optional but recommended
+      */
+
+           int dayNumber = 4;
+
+           switch(dayNumber){
+               case 1:
+                   System.out.println("Monday");
+                   break;
+
+               case 2:
+                   System.out.println("Tuesday");
+                   break;
+
+               case 3:
+                   System.out.println("Wednesday");
+                   break;
+
+               default:
+                   System.out.println("Invalid day");
+/*
+dayNumber = 3: switch jumps directly to "default" Therefore Output: Invalid day
+ */
+
+
+// Practice problem
+
+                 int numberOfProblemsSolved = 301;
+
+                 if(numberOfProblemsSolved >= 300){
+                     System.out.println("Advanced");
+                 }else if(numberOfProblemsSolved >= 150){
+                     System.out.println("Intermediate");
+                 }else{
+                     System.out.println("Begginer");
+                 }
+
+
+
+
+           }
+
+
+    }
+}
