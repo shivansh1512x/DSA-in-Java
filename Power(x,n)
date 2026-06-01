@@ -1,0 +1,24 @@
+class Solution {
+    public double myPow(double x, int n) {
+        long power = n;          
+        boolean isNegative = false;
+
+        if (power < 0) {
+            power = -power;     
+            isNegative = true;  
+        }
+
+        double result = 1.0;
+
+        for (long i = 0; i < power; i++) {
+            result = result * x;  
+        }
+
+        
+        if (isNegative) {
+            return 1.0 / result;
+        }
+
+        return result;
+    }
+}
