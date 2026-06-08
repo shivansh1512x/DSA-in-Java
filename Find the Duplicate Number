@@ -1,0 +1,26 @@
+class Solution {
+    public int findDuplicate(int[] nums) {
+
+        // Step 1: Detect cycle using Floyd's algorithm
+        int slow = nums[0];
+        int fast = nums[0];
+
+        // Move slow by 1 step, fast by 2 steps
+        // Till they meet (cycle exists)
+        do {
+            slow = nums[slow];           // 1 step
+            fast = nums[nums[fast]];     // 2 steps
+        } while (slow != fast);
+
+        // Step 2: Find cycle start (the duplicate number)
+        slow = nums[0];  // reset slow to start
+        
+        while (slow != fast) {
+            slow = nums[slow];    // move 1 step
+            fast = nums[fast];    // move 1 step
+        }
+
+        // When they meet, that's the cycle start = duplicate
+        return slow;
+    }
+}
