@@ -1,0 +1,56 @@
+class Solution {
+    public int largestRectangleArea(int[] heights) {
+
+        Stack<Integer> stack = new Stack<>();  // stores indices
+        int maxArea = 0;
+        int n = heights.length;
+
+        for (int i = 0; i < n; i++) {
+
+            // Pop while current height < stack top height
+            while (!stack.isEmpty() && heights[stack.peek()] > heights[i]) {
+
+                int h_idx = stack.pop();      // index of popped bar
+                int h = heights[h_idx];       // height of popped bar
+
+                // Left boundary: element below in stack (or -1)
+                int left = stack.isEmpty() ? -1 : stack.peek();
+
+                // Right boundary: current index - 1
+                int right = i - 1;
+
+                // Width of rectangle with height h
+                int width = right - left;
+
+                // Area
+                int area = h * width;
+                maxArea = Math.max(maxArea, area);
+            }
+
+            // Push current index
+            stack.push(i);
+        }
+
+        // Pop remaining elements in stack
+        while (!stack.isEmpty()) {
+
+            int h_idx = stack.pop();
+            int h = heights[h_idx];
+
+            // Left boundary
+            int left = stack.isEmpty() ? -1 : stack.peek();
+
+            // Right boundary: n-1 (no element to right)
+            int right = n - 1;
+
+            // Width
+            int width = right - left;
+
+            // Area
+            int area = h * width;
+            maxArea = Math.max(maxArea, area);
+        }
+
+        return maxArea;
+    }
+}
