@@ -1,0 +1,38 @@
+import java.util.HashMap;
+import java.util.Map;
+
+class Solution {
+    public boolean isAnagram(String s, String t) {
+
+        // Different lengths
+        if (s.length() != t.length()) {
+            return false;
+        }
+
+        // Count characters in s
+        Map<Character, Integer> charCount = new HashMap<>();
+        for (char c : s.toCharArray()) {
+            charCount.put(c, charCount.getOrDefault(c, 0) + 1);
+        }
+
+        // Decrement count for characters in t
+        for (char c : t.toCharArray()) {
+            if (!charCount.containsKey(c)) {
+                return false;  // Character not in s
+            }
+            charCount.put(c, charCount.get(c) - 1);
+            if (charCount.get(c) < 0) {
+                return false;  // More occurrences in t than s
+            }
+        }
+
+        // All counts should be 0
+        for (int count : charCount.values()) {
+            if (count != 0) {
+                return false;
+            }
+        }
+
+        return true;
+    }
+}
