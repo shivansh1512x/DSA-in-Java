@@ -1,0 +1,30 @@
+class Solution {
+    public String removeOccurrences(String s, String part) {
+
+        StringBuilder stack = new StringBuilder();
+        int partLen = part.length();
+
+        for (char c : s.toCharArray()) {
+
+            // Add current character to stack
+            stack.append(c);
+
+            // Check if last partLen characters match part
+            if (stack.length() >= partLen) {
+
+                // Get last partLen characters
+                String lastChars = stack.substring(
+                    stack.length() - partLen,
+                    stack.length()
+                );
+
+                // If matches part, remove them (pop from stack)
+                if (lastChars.equals(part)) {
+                    stack.delete(stack.length() - partLen, stack.length());
+                }
+            }
+        }
+
+        return stack.toString();
+    }
+}
