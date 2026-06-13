@@ -1,0 +1,26 @@
+class Solution {
+    public List<List<String>> groupAnagrams(String[] strs) {
+
+        Map<String, List<String>> map = new HashMap<>();
+
+        for (String str : strs) {
+
+            // Count character frequencies
+            int[] count = new int[26];
+            for (char c : str.toCharArray()) {
+                count[c - 'a']++;
+            }
+
+            // Create key from frequency count
+            String key = Arrays.toString(count);
+
+            // Add to group
+            if (!map.containsKey(key)) {
+                map.put(key, new ArrayList<>());
+            }
+            map.get(key).add(str);
+        }
+
+        return new ArrayList<>(map.values());
+    }
+}
