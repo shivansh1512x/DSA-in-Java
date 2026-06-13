@@ -1,0 +1,62 @@
+import java.util.HashMap;
+import java.util.Map;
+
+class Solution {
+    public String minWindow(String s, String t) {
+
+        if (t.length() > s.length()) return "";
+
+        // Count characters in t
+        Map<Character, Integer> tCount = new HashMap<>();
+        for (char c : t.toCharArray()) {
+            tCount.put(c, tCount.getOrDefault(c, 0) + 1);
+        }
+
+        // Window character count
+        Map<Character, Integer> windowCount = new HashMap<>();
+
+        int left = 0;
+        int formed = 0;  // How many unique chars in t are satisfied
+        int required = tCount.size();  // Total unique chars needed
+
+        int minLen = Integer.MAX_VALUE;
+        int minStart = 0;
+
+        for (int right = 0; right < s.length(); right++) {
+
+            // Add character to window
+            char c = s.charAt(right);
+            windowCount.put(c, windowCount.getOrDefault(c, 0) + 1);
+
+            // Check if this character's frequency is satisfied
+            if (tCount.containsKey(c) && 
+                windowCount.get(c).equals(tCount.get(c))) {
+                formed++;
+            }
+
+            // Try to shrink window from left
+            while (left <= right && formed == required) {
+
+                // Update minimum window
+                if (right - left + 1 < minLen) {
+                    minLen = right - left + 1;
+                    minStart = left;
+                }
+
+                // Remove left character from window
+                char leftChar = s.charAt(left);
+                windowCount.put(leftChar, windowCount.get(leftChar) - 1);
+
+                // Check if we lost this character's frequency
+                if (tCount.containsKey(leftChar) && 
+                    windowCount.get(leftChar) < tCount.get(leftChar)) {
+                    formed--;
+                }
+
+                left++;
+            }
+        }
+
+        return minLen == Integer.MAX_VALUE ? "" : s.substring(minStart, minStart + minLen);
+    }
+}
