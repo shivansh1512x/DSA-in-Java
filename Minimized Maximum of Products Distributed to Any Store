@@ -1,0 +1,39 @@
+class Solution {
+    public int minimizedMaximum(int n, int[] quantities) {
+        int low = 1;
+        int high = 0;
+
+        for (int q : quantities) {
+            high = Math.max(high, q);
+        }
+
+        int ans = high;
+
+        while (low <= high) {
+            int mid = low + (high - low) / 2;
+
+            if (canDistribute(n, quantities, mid)) {
+                ans = mid;
+                high = mid - 1;
+            } else {
+                low = mid + 1;
+            }
+        }
+
+        return ans;
+    }
+
+    private boolean canDistribute(int n, int[] quantities, int x) {
+        long storesNeeded = 0;
+
+        for (int q : quantities) {
+            storesNeeded += (q + x - 1) / x; // ceil(q / x)
+
+            if (storesNeeded > n) {
+                return false;
+            }
+        }
+
+        return true;
+    }
+}
