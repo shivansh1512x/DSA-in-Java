@@ -1,0 +1,73 @@
+class Solution {
+    private static final int MOD = 1_000_000_007;
+
+    public int numberOfPermutations(int n, int[][] requirements) {
+        int[] req = new int[n];
+        Arrays.fill(req, -1);
+
+        int maxInv = 0;
+
+        for (int[] r : requirements) {
+            int end = r[0];
+            int cnt = r[1];
+
+            if (req[end] != -1 && req[end] != cnt) {
+                return 0;
+            }
+
+            req[end] = cnt;
+            maxInv = Math.max(maxInv, cnt);
+        }
+
+        if (req[0] > 0) {
+            return 0;
+        }
+
+        long[] dp = new long[maxInv + 1];
+        dp[0] = 1;
+
+        for (int len = 1; len <= n; len++) {
+            long[] prefix = new long[maxInv + 1];
+
+            prefix[0] = dp[0];
+            for (int i = 1; i <= maxInv; i++) {
+                prefix[i] = (prefix[i - 1] + dp[i]) % MOD;
+            }
+
+            long[] ndp = new long[maxInv + 1];
+
+            for (int inv = 0; inv <= maxInv; inv++) {
+                int left = inv - (len - 1);
+
+                if (left <= 0) {
+                    ndp[inv] = prefix[inv];
+                } else {
+                    ndp[inv] = (prefix[inv] - prefix[left - 1] + MOD) % MOD;
+                }
+            }
+
+            int need = req[len - 1];
+
+            if (need != -1) {
+                long[] filtered = new long[maxInv + 1];
+                if (need <= maxInv) {
+                    filtered[need] = ndp[need];
+                }
+                dp = filtered;
+            } else {
+                dp = ndp;
+            }
+        }
+
+        if (req[n - 1] != -1) {
+            return (int) dp[req[n - 1]];
+        }
+
+        long ans = 0;
+        for (long x : dp) {
+            ans = (ans + x) % MOD;
+        }
+
+        return (int) ans;
+    }
+}
