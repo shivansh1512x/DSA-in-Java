@@ -1,0 +1,68 @@
+class Solution {
+
+    class FenwickTree {
+        int[] bit;
+        int n;
+
+        FenwickTree(int n) {
+            this.n = n;
+            bit = new int[n + 2];
+        }
+
+        void update(int idx, int val) {
+            while (idx <= n) {
+                bit[idx] += val;
+                idx += idx & -idx;
+            }
+        }
+
+        int query(int idx) {
+            int sum = 0;
+            while (idx > 0) {
+                sum += bit[idx];
+                idx -= idx & -idx;
+            }
+            return sum;
+        }
+    }
+
+    public long countMajoritySubarrays(int[] nums, int target) {
+
+        int n = nums.length;
+
+        boolean found = false;
+        for (int x : nums) {
+            if (x == target) {
+                found = true;
+                break;
+            }
+        }
+
+        if (!found) {
+            return 0;
+        }
+
+        FenwickTree tree = new FenwickTree(2 * n + 3);
+
+        int offset = n + 1;
+        int prefix = offset;
+
+        tree.update(prefix, 1);
+
+        long ans = 0;
+
+        for (int x : nums) {
+
+            if (x == target) {
+                prefix++;
+            } else {
+                prefix--;
+            }
+
+            ans += tree.query(prefix - 1);
+            tree.update(prefix, 1);
+        }
+
+        return ans;
+    }
+}
