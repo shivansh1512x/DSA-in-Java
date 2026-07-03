@@ -1,0 +1,95 @@
+import java.util.*;
+
+class Solution {
+    public int findMaxPathScore(int[][] edges, boolean[] online, long k) {
+        int n = online.length;
+        
+        // 1. Build the adjacency list and calculate in-degrees for Topological Sort
+        List<List<int[]>> adj = new ArrayList<>();
+        int[] inDegree = new int[n];
+        for (int i = 0; i < n; i++) {
+            adj.add(new ArrayList<>());
+        }
+        
+        int maxCost = 0;
+        for (int[] edge : edges) {
+            int u = edge[0];
+            int v = edge[1];
+            int cost = edge[2];
+            adj.get(u).add(new int[]{v, cost});
+            inDegree[v]++;
+            maxCost = Math.max(maxCost, cost);
+        }
+        
+        // 2. Precompute the Topological Order of the DAG
+        List<Integer> topoOrder = new ArrayList<>();
+        Queue<Integer> queue = new LinkedList<>();
+        for (int i = 0; i < n; i++) {
+            if (inDegree[i] == 0) {
+                queue.offer(i);
+            }
+        }
+        
+        while (!queue.isEmpty()) {
+            int u = queue.poll();
+            topoOrder.add(u);
+            for (int[] edge : adj.get(u)) {
+                int v = edge[0];
+                inDegree[v]--;
+                if (inDegree[v] == 0) {
+                    queue.offer(v);
+                }
+            }
+        }
+        
+        // 3. Binary Search for the maximum path score
+        int low = 0, high = maxCost;
+        int ans = -1;
+        
+        while (low <= high) {
+            int mid = low + (high - low) / 2;
+            
+            if (isValid(n, topoOrder, adj, online, k, mid)) {
+                ans = mid;       // mid is possible, try to find a larger minimum edge cost
+                low = mid + 1;
+            } else {
+                high = mid - 1;  // mid is too demanding, look for a smaller score
+            }
+        }
+        
+        return ans;
+    }
+    
+    private boolean isValid(int n, List<Integer> topoOrder, List<List<int[]>> adj, boolean[] online, long k, int minEdgeLimit) {
+        // dist[i] stores the minimum cost to reach node i from node 0
+        long[] dist = new long[n];
+        Arrays.fill(dist, Long.MAX_VALUE);
+        dist[0] = 0;
+        
+        // Process nodes in topological order
+        for (int u : topoOrder) {
+            if (dist[u] == Long.MAX_VALUE) continue;
+            
+            // Skip intermediate offline nodes
+            if (u != 0 && u != n - 1 && !online[u]) continue;
+            
+            for (int[] edge : adj.get(u)) {
+                int v = edge[0];
+                int cost = edge[1];
+                
+                // Rule 1: Ignore edges that fall short of our binary searched bottleneck capacity
+                if (cost < minEdgeLimit) continue;
+                
+                // Rule 2: Skip destination if it's an intermediate offline node
+                if (v != n - 1 && !online[v]) continue;
+                
+                // Relaxation step
+                if (dist[u] + cost < dist[v]) {
+                    dist[v] = dist[u] + cost;
+                }
+            }
+        }
+        
+        return dist[n - 1] <= k;
+    }
+}
