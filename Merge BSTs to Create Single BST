@@ -1,0 +1,65 @@
+class Solution {
+
+    private Map<Integer, TreeNode> roots = new HashMap<>();
+    private Set<Integer> leaves = new HashSet<>();
+
+    public TreeNode canMerge(List<TreeNode> trees) {
+
+        // Store all roots
+        for (TreeNode root : trees) {
+            roots.put(root.val, root);
+
+            if (root.left != null) {
+                leaves.add(root.left.val);
+            }
+            if (root.right != null) {
+                leaves.add(root.right.val);
+            }
+        }
+
+        // Find the unique root (not appearing as a leaf)
+        TreeNode root = null;
+
+        for (TreeNode node : trees) {
+            if (!leaves.contains(node.val)) {
+                root = node;
+                break;
+            }
+        }
+
+        if (root == null) {
+            return null;
+        }
+
+        roots.remove(root.val);
+
+        if (!build(root, Long.MIN_VALUE, Long.MAX_VALUE)) {
+            return null;
+        }
+
+        return roots.isEmpty() ? root : null;
+    }
+
+    private boolean build(TreeNode node, long low, long high) {
+
+        if (node == null) {
+            return true;
+        }
+
+        if (node.val <= low || node.val >= high) {
+            return false;
+        }
+
+        // Merge if current node is a leaf and another tree starts here
+        if (node.left == null && node.right == null && roots.containsKey(node.val)) {
+
+            TreeNode merge = roots.remove(node.val);
+
+            node.left = merge.left;
+            node.right = merge.right;
+        }
+
+        return build(node.left, low, node.val)
+                && build(node.right, node.val, high);
+    }
+}
