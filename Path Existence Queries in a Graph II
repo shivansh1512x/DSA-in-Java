@@ -1,0 +1,66 @@
+import java.util.*;
+
+class Solution {
+    public int[] pathExistenceQueries(int n, int[] nums, int maxDiff, int[][] queries) {
+        // 1. Sort node indices by their value
+        Integer[] order = new Integer[n];
+        for (int i = 0; i < n; i++) order[i] = i;
+        Arrays.sort(order, (a, b) -> nums[a] - nums[b]);
+
+        int[] sortedVal = new int[n];
+        int[] pos = new int[n]; // pos[originalNodeIndex] = position in sorted order
+        for (int i = 0; i < n; i++) {
+            sortedVal[i] = nums[order[i]];
+            pos[order[i]] = i;
+        }
+
+        // 2. next[i] = furthest index reachable directly (one edge) from sorted position i
+        int[] next = new int[n];
+        int r = 0;
+        for (int i = 0; i < n; i++) {
+            if (r < i) r = i;
+            while (r + 1 < n && sortedVal[r + 1] - sortedVal[i] <= maxDiff) r++;
+            next[i] = r;
+        }
+
+        // 3. Binary lifting table: up[k][i] = position reached after 2^k greedy jumps from i
+        final int LOG = 18; // 2^18 > 1e5, safely covers n
+        int[][] up = new int[LOG][n];
+        up[0] = next;
+        for (int k = 1; k < LOG; k++) {
+            for (int i = 0; i < n; i++) {
+                up[k][i] = up[k - 1][up[k - 1][i]];
+            }
+        }
+
+        // 4. Answer each query
+        int m = queries.length;
+        int[] answer = new int[m];
+        for (int i = 0; i < m; i++) {
+            int u = queries[i][0], v = queries[i][1];
+            if (u == v) {
+                answer[i] = 0;
+                continue;
+            }
+            int p = pos[u], q = pos[v];
+            if (p > q) { int tmp = p; p = q; q = tmp; }
+
+            int cur = p, steps = 0;
+            for (int k = LOG - 1; k >= 0; k--) {
+                if (up[k][cur] < q) {
+                    steps += (1 << k);
+                    cur = up[k][cur];
+                }
+            }
+
+            // One more edge should finish the path if reachable
+            if (next[cur] >= q) {
+                answer[i] = steps + 1;
+            } else {
+                answer[i] = -1; // stuck — component boundary reached
+            }
+        }
+
+        return answer;
+    }
+}
