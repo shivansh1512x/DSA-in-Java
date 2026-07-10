@@ -1,0 +1,25 @@
+class Solution {
+    public String longestCommonPrefix(String[] strs) {
+
+        if (strs.length == 0) return "";
+
+        // Find minimum length (can't have prefix longer than shortest string)
+        int minLen = strs[0].length();
+        for (String s : strs) {
+            minLen = Math.min(minLen, s.length());
+        }
+
+        // Check each position
+        for (int i = 0; i < minLen; i++) {
+
+            char c = strs[0].charAt(i);  // Character at position i in first string
+
+            // Check if all strings have same character at position i
+            for (int j = 1; j < strs.length; j++) {
+
+                if (strs[j].charAt(i) != c) {
+                    // Mismatch found
+                    return strs[0].substring(0, i);
+                }
+            }
+        }
