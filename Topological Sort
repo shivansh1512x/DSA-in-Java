@@ -1,0 +1,48 @@
+class Solution {
+
+    static ArrayList<Integer> topoSort(int V, int[][] edges) {
+
+        ArrayList<ArrayList<Integer>> graph = new ArrayList<>();
+
+        for (int i = 0; i < V; i++) {
+            graph.add(new ArrayList<>());
+        }
+
+        int[] indegree = new int[V];
+
+        for (int[] edge : edges) {
+            int u = edge[0];
+            int v = edge[1];
+
+            graph.get(u).add(v);
+            indegree[v]++;
+        }
+
+        Queue<Integer> queue = new LinkedList<>();
+
+        for (int i = 0; i < V; i++) {
+            if (indegree[i] == 0) {
+                queue.offer(i);
+            }
+        }
+
+        ArrayList<Integer> ans = new ArrayList<>();
+
+        while (!queue.isEmpty()) {
+
+            int node = queue.poll();
+            ans.add(node);
+
+            for (int next : graph.get(node)) {
+
+                indegree[next]--;
+
+                if (indegree[next] == 0) {
+                    queue.offer(next);
+                }
+            }
+        }
+
+        return ans;
+    }
+}
