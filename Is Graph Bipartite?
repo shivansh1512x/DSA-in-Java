@@ -1,0 +1,47 @@
+class Solution {
+
+    public boolean isBipartite(int[][] graph) {
+
+        int n = graph.length;
+
+        // -1 = not colored
+        //  0 = color 0
+        //  1 = color 1
+        int[] color = new int[n];
+        Arrays.fill(color, -1);
+
+        for (int start = 0; start < n; start++) {
+
+            // Graph can be disconnected
+            if (color[start] != -1) {
+                continue;
+            }
+
+            Queue<Integer> queue = new LinkedList<>();
+
+            queue.offer(start);
+            color[start] = 0;
+
+            while (!queue.isEmpty()) {
+
+                int u = queue.poll();
+
+                for (int v : graph[u]) {
+
+                    // If not colored, give opposite color
+                    if (color[v] == -1) {
+                        color[v] = 1 - color[u];
+                        queue.offer(v);
+                    }
+
+                    // If adjacent nodes have same color
+                    else if (color[v] == color[u]) {
+                        return false;
+                    }
+                }
+            }
+        }
+
+        return true;
+    }
+}
