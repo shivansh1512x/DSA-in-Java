@@ -1,0 +1,86 @@
+import java.util.*;
+
+class Solution {
+
+    public int countPaths(int n, int[][] roads) {
+
+        final long MOD = 1_000_000_007L;
+
+        // Adjacency list
+        List<int[]>[] graph = new ArrayList[n];
+
+        for (int i = 0; i < n; i++) {
+            graph[i] = new ArrayList<>();
+        }
+
+        for (int[] road : roads) {
+
+            int u = road[0];
+            int v = road[1];
+            int time = road[2];
+
+            graph[u].add(new int[]{v, time});
+            graph[v].add(new int[]{u, time});
+        }
+
+        // Shortest distance
+        long[] dist = new long[n];
+        Arrays.fill(dist, Long.MAX_VALUE);
+
+        // Number of shortest paths
+        long[] ways = new long[n];
+
+        dist[0] = 0;
+        ways[0] = 1;
+
+        // {distance, node}
+        PriorityQueue<long[]> pq =
+                new PriorityQueue<>(
+                    (a, b) -> Long.compare(a[0], b[0])
+                );
+
+        pq.offer(new long[]{0, 0});
+
+        while (!pq.isEmpty()) {
+
+            long[] current = pq.poll();
+
+            long currDist = current[0];
+            int u = (int) current[1];
+
+            // Ignore outdated entry
+            if (currDist > dist[u]) {
+                continue;
+            }
+
+            for (int[] edge : graph[u]) {
+
+                int v = edge[0];
+                int time = edge[1];
+
+                long newDist = currDist + time;
+
+                // Found a shorter path
+                if (newDist < dist[v]) {
+
+                    dist[v] = newDist;
+                    ways[v] = ways[u];
+
+                    pq.offer(new long[]{
+                        newDist,
+                        v
+                    });
+                }
+
+                // Found another shortest path
+                else if (newDist == dist[v]) {
+
+                    ways[v] =
+                            (ways[v] + ways[u]) % MOD;
+                }
+            }
+        }
+
+        return (int) ways[n - 1];
+    }
+}
