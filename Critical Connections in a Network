@@ -1,0 +1,108 @@
+import java.util.*;
+
+class Solution {
+
+    private int timer = 0;
+
+    public List<List<Integer>> criticalConnections(
+            int n,
+            List<List<Integer>> connections) {
+
+        // Adjacency list
+        List<Integer>[] graph = new ArrayList[n];
+
+        for (int i = 0; i < n; i++) {
+            graph[i] = new ArrayList<>();
+        }
+
+        // Build undirected graph
+        for (List<Integer> edge : connections) {
+
+            int u = edge.get(0);
+            int v = edge.get(1);
+
+            graph[u].add(v);
+            graph[v].add(u);
+        }
+
+        // discovery[u] = time when node u was visited
+        // low[u] = lowest discovery time reachable from u
+        int[] discovery = new int[n];
+        int[] low = new int[n];
+
+        Arrays.fill(discovery, -1);
+
+        List<List<Integer>> answer = new ArrayList<>();
+
+        // Start DFS
+        dfs(
+            0,
+            -1,
+            graph,
+            discovery,
+            low,
+            answer
+        );
+
+        return answer;
+    }
+
+    private void dfs(
+            int node,
+            int parent,
+            List<Integer>[] graph,
+            int[] discovery,
+            int[] low,
+            List<List<Integer>> answer) {
+
+        // Assign discovery time
+        discovery[node] = low[node] = timer++;
+
+        for (int neighbor : graph[node]) {
+
+            // Don't go back through the same edge
+            if (neighbor == parent) {
+                continue;
+            }
+
+            // Already visited -> Back Edge
+            if (discovery[neighbor] != -1) {
+
+                low[node] = Math.min(
+                    low[node],
+                    discovery[neighbor]
+                );
+
+            } else {
+
+                // DFS
+                dfs(
+                    neighbor,
+                    node,
+                    graph,
+                    discovery,
+                    low,
+                    answer
+                );
+
+                // Update low value
+                low[node] = Math.min(
+                    low[node],
+                    low[neighbor]
+                );
+
+                /*
+                 * If neighbor's subtree cannot reach
+                 * node or any ancestor of node,
+                 * then node -> neighbor is a bridge.
+                 */
+                if (low[neighbor] > discovery[node]) {
+
+                    answer.add(
+                        Arrays.asList(node, neighbor)
+                    );
+                }
+            }
+        }
+    }
+}
