@@ -72,4 +72,8 @@
 |  |
 | ------- |
 | [0912-sort-an-array](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0912-sort-an-array) |
+## Backtracking
+|  |
+| ------- |
+| [0077-combinations](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0077-combinations) |
 <!---LeetCode Topics End-->
