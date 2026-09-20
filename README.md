@@ -52,6 +52,7 @@
 | [0088-merge-sorted-array](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0088-merge-sorted-array) |
 | [0643-maximum-average-subarray-i](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0643-maximum-average-subarray-i) |
 | [0912-sort-an-array](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0912-sort-an-array) |
+| [1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold](https://github.com/shivansh1512x/DSA-in-Java/tree/master/1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -92,4 +93,5 @@
 |  |
 | ------- |
 | [0643-maximum-average-subarray-i](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0643-maximum-average-subarray-i) |
+| [1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold](https://github.com/shivansh1512x/DSA-in-Java/tree/master/1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) |
 <!---LeetCode Topics End-->
