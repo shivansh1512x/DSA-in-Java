@@ -49,6 +49,7 @@
 |  |
 | ------- |
 | [0147-insertion-sort-list](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0147-insertion-sort-list) |
+| [0203-remove-linked-list-elements](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0203-remove-linked-list-elements) |
 ## Array
 |  |
 | ------- |
@@ -123,4 +124,8 @@
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0239-sliding-window-maximum) |
+## Recursion
+|  |
+| ------- |
+| [0203-remove-linked-list-elements](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0203-remove-linked-list-elements) |
 <!---LeetCode Topics End-->
