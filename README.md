@@ -48,6 +48,7 @@
 ## Linked List
 |  |
 | ------- |
+| [0021-merge-two-sorted-lists](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0021-merge-two-sorted-lists) |
 | [0147-insertion-sort-list](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0147-insertion-sort-list) |
 | [0203-remove-linked-list-elements](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0203-remove-linked-list-elements) |
 | [0206-reverse-linked-list](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0206-reverse-linked-list) |
@@ -130,6 +131,7 @@
 ## Recursion
 |  |
 | ------- |
+| [0021-merge-two-sorted-lists](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0021-merge-two-sorted-lists) |
 | [0203-remove-linked-list-elements](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0203-remove-linked-list-elements) |
 | [0206-reverse-linked-list](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0206-reverse-linked-list) |
 <!---LeetCode Topics End-->
