@@ -7,10 +7,12 @@
 | [0002-add-two-numbers](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0002-add-two-numbers) |
 | [1401-circle-and-rectangle-overlapping](https://github.com/shivansh1512x/DSA-in-Java/tree/master/1401-circle-and-rectangle-overlapping) |
 | [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/shivansh1512x/DSA-in-Java/tree/master/1621-number-of-sets-of-k-non-overlapping-line-segments) |
+| [3524-find-x-value-of-array-i](https://github.com/shivansh1512x/DSA-in-Java/tree/master/3524-find-x-value-of-array-i) |
 ## Dynamic Programming
 |  |
 | ------- |
 | [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/shivansh1512x/DSA-in-Java/tree/master/1621-number-of-sets-of-k-non-overlapping-line-segments) |
+| [3524-find-x-value-of-array-i](https://github.com/shivansh1512x/DSA-in-Java/tree/master/3524-find-x-value-of-array-i) |
 ## Combinatorics
 |  |
 | ------- |
@@ -71,6 +73,7 @@
 | [1004-max-consecutive-ones-iii](https://github.com/shivansh1512x/DSA-in-Java/tree/master/1004-max-consecutive-ones-iii) |
 | [1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold](https://github.com/shivansh1512x/DSA-in-Java/tree/master/1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/shivansh1512x/DSA-in-Java/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
+| [3524-find-x-value-of-array-i](https://github.com/shivansh1512x/DSA-in-Java/tree/master/3524-find-x-value-of-array-i) |
 ## Divide and Conquer
 |  |
 | ------- |
