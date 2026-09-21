@@ -28,6 +28,7 @@
 |  |
 | ------- |
 | [0141-linked-list-cycle](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0141-linked-list-cycle) |
+| [0169-majority-element](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0169-majority-element) |
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/shivansh1512x/DSA-in-Java/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
 ## String
 |  |
@@ -44,6 +45,7 @@
 | ------- |
 | [0088-merge-sorted-array](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0088-merge-sorted-array) |
 | [0147-insertion-sort-list](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0147-insertion-sort-list) |
+| [0169-majority-element](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0169-majority-element) |
 | [0912-sort-an-array](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0912-sort-an-array) |
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/shivansh1512x/DSA-in-Java/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
 ## Geometry
@@ -66,6 +68,7 @@
 | ------- |
 | [0088-merge-sorted-array](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0088-merge-sorted-array) |
 | [0090-subsets-ii](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0090-subsets-ii) |
+| [0169-majority-element](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0169-majority-element) |
 | [0209-minimum-size-subarray-sum](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0209-minimum-size-subarray-sum) |
 | [0239-sliding-window-maximum](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0239-sliding-window-maximum) |
 | [0643-maximum-average-subarray-i](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0643-maximum-average-subarray-i) |
@@ -77,6 +80,7 @@
 ## Divide and Conquer
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0169-majority-element) |
 | [0912-sort-an-array](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0912-sort-an-array) |
 ## Heap (Priority Queue)
 |  |
@@ -98,6 +102,7 @@
 ## Counting Sort
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0169-majority-element) |
 | [0912-sort-an-array](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0912-sort-an-array) |
 ## Backtracking
 |  |
@@ -162,4 +167,8 @@
 |  |
 | ------- |
 | [0234-palindrome-linked-list](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0234-palindrome-linked-list) |
+## Boyer–Moore Majority Vote Algorithm
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0169-majority-element) |
 <!---LeetCode Topics End-->
