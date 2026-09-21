@@ -59,6 +59,7 @@
 |  |
 | ------- |
 | [0088-merge-sorted-array](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0088-merge-sorted-array) |
+| [0090-subsets-ii](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0090-subsets-ii) |
 | [0209-minimum-size-subarray-sum](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0209-minimum-size-subarray-sum) |
 | [0239-sliding-window-maximum](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0239-sliding-window-maximum) |
 | [0643-maximum-average-subarray-i](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0643-maximum-average-subarray-i) |
@@ -95,6 +96,7 @@
 |  |
 | ------- |
 | [0077-combinations](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0077-combinations) |
+| [0090-subsets-ii](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0090-subsets-ii) |
 ## Two Pointers
 |  |
 | ------- |
@@ -141,4 +143,8 @@
 |  |
 | ------- |
 | [0141-linked-list-cycle](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0141-linked-list-cycle) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0090-subsets-ii](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0090-subsets-ii) |
 <!---LeetCode Topics End-->
