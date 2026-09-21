@@ -50,6 +50,7 @@
 | ------- |
 | [0147-insertion-sort-list](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0147-insertion-sort-list) |
 | [0203-remove-linked-list-elements](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0203-remove-linked-list-elements) |
+| [0876-middle-of-the-linked-list](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0876-middle-of-the-linked-list) |
 ## Array
 |  |
 | ------- |
@@ -94,6 +95,7 @@
 |  |
 | ------- |
 | [0088-merge-sorted-array](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0088-merge-sorted-array) |
+| [0876-middle-of-the-linked-list](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0876-middle-of-the-linked-list) |
 ## Simulation
 |  |
 | ------- |
