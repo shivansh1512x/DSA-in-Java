@@ -67,6 +67,7 @@
 | [0206-reverse-linked-list](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0234-palindrome-linked-list) |
 | [0430-flatten-a-multilevel-doubly-linked-list](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0430-flatten-a-multilevel-doubly-linked-list) |
+| [0707-design-linked-list](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0707-design-linked-list) |
 | [0876-middle-of-the-linked-list](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0876-middle-of-the-linked-list) |
 ## Array
 |  |
@@ -194,4 +195,5 @@
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0146-lru-cache) |
+| [0707-design-linked-list](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0707-design-linked-list) |
 <!---LeetCode Topics End-->
