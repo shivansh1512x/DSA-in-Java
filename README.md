@@ -64,6 +64,7 @@
 | [0203-remove-linked-list-elements](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0203-remove-linked-list-elements) |
 | [0206-reverse-linked-list](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0234-palindrome-linked-list) |
+| [0430-flatten-a-multilevel-doubly-linked-list](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0430-flatten-a-multilevel-doubly-linked-list) |
 | [0876-middle-of-the-linked-list](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0876-middle-of-the-linked-list) |
 ## Array
 |  |
@@ -178,4 +179,12 @@
 |  |
 | ------- |
 | [2965-find-missing-and-repeated-values](https://github.com/shivansh1512x/DSA-in-Java/tree/master/2965-find-missing-and-repeated-values) |
+## Depth-First Search
+|  |
+| ------- |
+| [0430-flatten-a-multilevel-doubly-linked-list](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0430-flatten-a-multilevel-doubly-linked-list) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0430-flatten-a-multilevel-doubly-linked-list](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0430-flatten-a-multilevel-doubly-linked-list) |
 <!---LeetCode Topics End-->
