@@ -29,6 +29,7 @@
 |  |
 | ------- |
 | [0141-linked-list-cycle](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0141-linked-list-cycle) |
+| [0146-lru-cache](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0146-lru-cache) |
 | [0169-majority-element](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0169-majority-element) |
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/shivansh1512x/DSA-in-Java/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
 | [2965-find-missing-and-repeated-values](https://github.com/shivansh1512x/DSA-in-Java/tree/master/2965-find-missing-and-repeated-values) |
@@ -60,6 +61,7 @@
 | [0002-add-two-numbers](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0002-add-two-numbers) |
 | [0021-merge-two-sorted-lists](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0021-merge-two-sorted-lists) |
 | [0141-linked-list-cycle](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0141-linked-list-cycle) |
+| [0146-lru-cache](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0146-lru-cache) |
 | [0147-insertion-sort-list](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0147-insertion-sort-list) |
 | [0203-remove-linked-list-elements](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0203-remove-linked-list-elements) |
 | [0206-reverse-linked-list](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0206-reverse-linked-list) |
@@ -186,5 +188,10 @@
 ## Doubly-Linked List
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0146-lru-cache) |
 | [0430-flatten-a-multilevel-doubly-linked-list](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0430-flatten-a-multilevel-doubly-linked-list) |
+## Design
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0146-lru-cache) |
 <!---LeetCode Topics End-->
