@@ -181,6 +181,7 @@
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0020-valid-parentheses) |
+| [0155-min-stack](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0155-min-stack) |
 | [0234-palindrome-linked-list](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0234-palindrome-linked-list) |
 ## Boyer–Moore Majority Vote Algorithm
 |  |
@@ -203,6 +204,7 @@
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0146-lru-cache) |
+| [0155-min-stack](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0155-min-stack) |
 | [0707-design-linked-list](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0707-design-linked-list) |
 ## Segment Tree
 |  |
