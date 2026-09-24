@@ -82,6 +82,7 @@
 | [0239-sliding-window-maximum](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0239-sliding-window-maximum) |
 | [0457-circular-array-loop](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0457-circular-array-loop) |
 | [0643-maximum-average-subarray-i](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0643-maximum-average-subarray-i) |
+| [0682-baseball-game](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0682-baseball-game) |
 | [0912-sort-an-array](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0912-sort-an-array) |
 | [1004-max-consecutive-ones-iii](https://github.com/shivansh1512x/DSA-in-Java/tree/master/1004-max-consecutive-ones-iii) |
 | [1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold](https://github.com/shivansh1512x/DSA-in-Java/tree/master/1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) |
@@ -132,6 +133,7 @@
 ## Simulation
 |  |
 | ------- |
+| [0682-baseball-game](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0682-baseball-game) |
 | [3498-reverse-degree-of-a-string](https://github.com/shivansh1512x/DSA-in-Java/tree/master/3498-reverse-degree-of-a-string) |
 ## Sliding Window
 |  |
@@ -183,6 +185,7 @@
 | [0020-valid-parentheses](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0020-valid-parentheses) |
 | [0155-min-stack](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0155-min-stack) |
 | [0234-palindrome-linked-list](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0234-palindrome-linked-list) |
+| [0682-baseball-game](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0682-baseball-game) |
 ## Boyer–Moore Majority Vote Algorithm
 |  |
 | ------- |
