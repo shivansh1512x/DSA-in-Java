@@ -154,6 +154,7 @@
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0239-sliding-window-maximum) |
+| [0933-number-of-recent-calls](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0933-number-of-recent-calls) |
 ## Monotonic Queue
 |  |
 | ------- |
@@ -209,6 +210,7 @@
 | [0146-lru-cache](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0146-lru-cache) |
 | [0155-min-stack](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0155-min-stack) |
 | [0707-design-linked-list](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0707-design-linked-list) |
+| [0933-number-of-recent-calls](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0933-number-of-recent-calls) |
 ## Segment Tree
 |  |
 | ------- |
@@ -217,4 +219,8 @@
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0020-valid-parentheses) |
+## Data Stream
+|  |
+| ------- |
+| [0933-number-of-recent-calls](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0933-number-of-recent-calls) |
 <!---LeetCode Topics End-->
