@@ -5,6 +5,7 @@
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0002-add-two-numbers) |
+| [0268-missing-number](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0268-missing-number) |
 | [1401-circle-and-rectangle-overlapping](https://github.com/shivansh1512x/DSA-in-Java/tree/master/1401-circle-and-rectangle-overlapping) |
 | [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/shivansh1512x/DSA-in-Java/tree/master/1621-number-of-sets-of-k-non-overlapping-line-segments) |
 | [2965-find-missing-and-repeated-values](https://github.com/shivansh1512x/DSA-in-Java/tree/master/2965-find-missing-and-repeated-values) |
@@ -32,6 +33,7 @@
 | [0141-linked-list-cycle](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0141-linked-list-cycle) |
 | [0146-lru-cache](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0146-lru-cache) |
 | [0169-majority-element](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0169-majority-element) |
+| [0268-missing-number](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0268-missing-number) |
 | [0457-circular-array-loop](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0457-circular-array-loop) |
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/shivansh1512x/DSA-in-Java/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
 | [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/shivansh1512x/DSA-in-Java/tree/master/1807-evaluate-the-bracket-pairs-of-a-string) |
@@ -54,6 +56,7 @@
 | [0088-merge-sorted-array](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0088-merge-sorted-array) |
 | [0147-insertion-sort-list](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0147-insertion-sort-list) |
 | [0169-majority-element](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0169-majority-element) |
+| [0268-missing-number](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0268-missing-number) |
 | [0912-sort-an-array](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0912-sort-an-array) |
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/shivansh1512x/DSA-in-Java/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
 ## Geometry
@@ -82,6 +85,7 @@
 | [0169-majority-element](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0169-majority-element) |
 | [0209-minimum-size-subarray-sum](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0209-minimum-size-subarray-sum) |
 | [0239-sliding-window-maximum](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0239-sliding-window-maximum) |
+| [0268-missing-number](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0268-missing-number) |
 | [0457-circular-array-loop](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0457-circular-array-loop) |
 | [0643-maximum-average-subarray-i](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0643-maximum-average-subarray-i) |
 | [0682-baseball-game](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0682-baseball-game) |
@@ -152,6 +156,7 @@
 |  |
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0209-minimum-size-subarray-sum) |
+| [0268-missing-number](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0268-missing-number) |
 | [1004-max-consecutive-ones-iii](https://github.com/shivansh1512x/DSA-in-Java/tree/master/1004-max-consecutive-ones-iii) |
 ## Queue
 |  |
@@ -183,6 +188,7 @@
 |  |
 | ------- |
 | [0090-subsets-ii](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0090-subsets-ii) |
+| [0268-missing-number](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0268-missing-number) |
 ## Stack
 |  |
 | ------- |
