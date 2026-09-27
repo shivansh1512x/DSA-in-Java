@@ -30,6 +30,7 @@
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0001-two-sum) |
 | [0141-linked-list-cycle](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0141-linked-list-cycle) |
 | [0146-lru-cache](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0146-lru-cache) |
 | [0169-majority-element](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0169-majority-element) |
@@ -80,6 +81,7 @@
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0001-two-sum) |
 | [0088-merge-sorted-array](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0088-merge-sorted-array) |
 | [0090-subsets-ii](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0090-subsets-ii) |
 | [0169-majority-element](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0169-majority-element) |
