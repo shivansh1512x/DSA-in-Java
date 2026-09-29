@@ -15,6 +15,7 @@
 |  |
 | ------- |
 | [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/shivansh1512x/DSA-in-Java/tree/master/1621-number-of-sets-of-k-non-overlapping-line-segments) |
+| [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/shivansh1512x/DSA-in-Java/tree/master/2267-check-if-there-is-a-valid-parentheses-string-path) |
 | [3524-find-x-value-of-array-i](https://github.com/shivansh1512x/DSA-in-Java/tree/master/3524-find-x-value-of-array-i) |
 ## Combinatorics
 |  |
@@ -100,6 +101,7 @@
 | [1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold](https://github.com/shivansh1512x/DSA-in-Java/tree/master/1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/shivansh1512x/DSA-in-Java/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 | [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/shivansh1512x/DSA-in-Java/tree/master/1807-evaluate-the-bracket-pairs-of-a-string) |
+| [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/shivansh1512x/DSA-in-Java/tree/master/2267-check-if-there-is-a-valid-parentheses-string-path) |
 | [2965-find-missing-and-repeated-values](https://github.com/shivansh1512x/DSA-in-Java/tree/master/2965-find-missing-and-repeated-values) |
 | [3524-find-x-value-of-array-i](https://github.com/shivansh1512x/DSA-in-Java/tree/master/3524-find-x-value-of-array-i) |
 | [3525-find-x-value-of-array-ii](https://github.com/shivansh1512x/DSA-in-Java/tree/master/3525-find-x-value-of-array-ii) |
@@ -211,6 +213,7 @@
 ## Matrix
 |  |
 | ------- |
+| [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/shivansh1512x/DSA-in-Java/tree/master/2267-check-if-there-is-a-valid-parentheses-string-path) |
 | [2965-find-missing-and-repeated-values](https://github.com/shivansh1512x/DSA-in-Java/tree/master/2965-find-missing-and-repeated-values) |
 ## Depth-First Search
 |  |
@@ -238,6 +241,7 @@
 | [0020-valid-parentheses](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0020-valid-parentheses) |
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/shivansh1512x/DSA-in-Java/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/shivansh1512x/DSA-in-Java/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
+| [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/shivansh1512x/DSA-in-Java/tree/master/2267-check-if-there-is-a-valid-parentheses-string-path) |
 ## Data Stream
 |  |
 | ------- |
