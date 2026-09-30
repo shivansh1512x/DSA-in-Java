@@ -45,6 +45,7 @@
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0020-valid-parentheses) |
+| [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/shivansh1512x/DSA-in-Java/tree/master/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/shivansh1512x/DSA-in-Java/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/shivansh1512x/DSA-in-Java/tree/master/1456-maximum-number-of-vowels-in-a-substring-of-given-length) |
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/shivansh1512x/DSA-in-Java/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
@@ -204,6 +205,7 @@
 | [0155-min-stack](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0155-min-stack) |
 | [0234-palindrome-linked-list](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0234-palindrome-linked-list) |
 | [0682-baseball-game](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0682-baseball-game) |
+| [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/shivansh1512x/DSA-in-Java/tree/master/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/shivansh1512x/DSA-in-Java/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/shivansh1512x/DSA-in-Java/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
 ## Boyer–Moore Majority Vote Algorithm
@@ -239,6 +241,7 @@
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0020-valid-parentheses) |
+| [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/shivansh1512x/DSA-in-Java/tree/master/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/shivansh1512x/DSA-in-Java/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/shivansh1512x/DSA-in-Java/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
 | [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/shivansh1512x/DSA-in-Java/tree/master/2267-check-if-there-is-a-valid-parentheses-string-path) |
