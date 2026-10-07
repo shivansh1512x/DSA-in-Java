@@ -45,6 +45,7 @@
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0020-valid-parentheses) |
+| [0301-remove-invalid-parentheses](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0301-remove-invalid-parentheses) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/shivansh1512x/DSA-in-Java/tree/master/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/shivansh1512x/DSA-in-Java/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
@@ -140,6 +141,7 @@
 | ------- |
 | [0077-combinations](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0077-combinations) |
 | [0090-subsets-ii](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0090-subsets-ii) |
+| [0301-remove-invalid-parentheses](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0301-remove-invalid-parentheses) |
 ## Two Pointers
 |  |
 | ------- |
@@ -253,4 +255,8 @@
 |  |
 | ------- |
 | [0933-number-of-recent-calls](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0933-number-of-recent-calls) |
+## Breadth-First Search
+|  |
+| ------- |
+| [0301-remove-invalid-parentheses](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0301-remove-invalid-parentheses) |
 <!---LeetCode Topics End-->
