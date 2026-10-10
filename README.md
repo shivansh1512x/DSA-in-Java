@@ -62,6 +62,7 @@
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/shivansh1512x/DSA-in-Java/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
 | [1541-minimum-insertions-to-balance-a-parentheses-string](https://github.com/shivansh1512x/DSA-in-Java/tree/master/1541-minimum-insertions-to-balance-a-parentheses-string) |
+| [2333-minimum-sum-of-squared-difference](https://github.com/shivansh1512x/DSA-in-Java/tree/master/2333-minimum-sum-of-squared-difference) |
 ## Sorting
 |  |
 | ------- |
@@ -71,6 +72,7 @@
 | [0268-missing-number](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0268-missing-number) |
 | [0912-sort-an-array](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0912-sort-an-array) |
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/shivansh1512x/DSA-in-Java/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
+| [2333-minimum-sum-of-squared-difference](https://github.com/shivansh1512x/DSA-in-Java/tree/master/2333-minimum-sum-of-squared-difference) |
 ## Geometry
 |  |
 | ------- |
@@ -109,6 +111,7 @@
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/shivansh1512x/DSA-in-Java/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 | [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/shivansh1512x/DSA-in-Java/tree/master/1807-evaluate-the-bracket-pairs-of-a-string) |
 | [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/shivansh1512x/DSA-in-Java/tree/master/2267-check-if-there-is-a-valid-parentheses-string-path) |
+| [2333-minimum-sum-of-squared-difference](https://github.com/shivansh1512x/DSA-in-Java/tree/master/2333-minimum-sum-of-squared-difference) |
 | [2965-find-missing-and-repeated-values](https://github.com/shivansh1512x/DSA-in-Java/tree/master/2965-find-missing-and-repeated-values) |
 | [3524-find-x-value-of-array-i](https://github.com/shivansh1512x/DSA-in-Java/tree/master/3524-find-x-value-of-array-i) |
 | [3525-find-x-value-of-array-ii](https://github.com/shivansh1512x/DSA-in-Java/tree/master/3525-find-x-value-of-array-ii) |
@@ -122,6 +125,7 @@
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0239-sliding-window-maximum) |
 | [0912-sort-an-array](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0912-sort-an-array) |
+| [2333-minimum-sum-of-squared-difference](https://github.com/shivansh1512x/DSA-in-Java/tree/master/2333-minimum-sum-of-squared-difference) |
 ## Merge Sort
 |  |
 | ------- |
@@ -174,6 +178,7 @@
 | [0209-minimum-size-subarray-sum](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0209-minimum-size-subarray-sum) |
 | [0268-missing-number](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0268-missing-number) |
 | [1004-max-consecutive-ones-iii](https://github.com/shivansh1512x/DSA-in-Java/tree/master/1004-max-consecutive-ones-iii) |
+| [2333-minimum-sum-of-squared-difference](https://github.com/shivansh1512x/DSA-in-Java/tree/master/2333-minimum-sum-of-squared-difference) |
 ## Queue
 |  |
 | ------- |
