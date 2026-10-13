@@ -65,6 +65,7 @@
 | [1541-minimum-insertions-to-balance-a-parentheses-string](https://github.com/shivansh1512x/DSA-in-Java/tree/master/1541-minimum-insertions-to-balance-a-parentheses-string) |
 | [2333-minimum-sum-of-squared-difference](https://github.com/shivansh1512x/DSA-in-Java/tree/master/2333-minimum-sum-of-squared-difference) |
 | [2897-apply-operations-on-array-to-maximize-sum-of-squares](https://github.com/shivansh1512x/DSA-in-Java/tree/master/2897-apply-operations-on-array-to-maximize-sum-of-squares) |
+| [3727-maximum-alternating-sum-of-squares](https://github.com/shivansh1512x/DSA-in-Java/tree/master/3727-maximum-alternating-sum-of-squares) |
 ## Sorting
 |  |
 | ------- |
@@ -75,6 +76,7 @@
 | [0912-sort-an-array](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0912-sort-an-array) |
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/shivansh1512x/DSA-in-Java/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
 | [2333-minimum-sum-of-squared-difference](https://github.com/shivansh1512x/DSA-in-Java/tree/master/2333-minimum-sum-of-squared-difference) |
+| [3727-maximum-alternating-sum-of-squares](https://github.com/shivansh1512x/DSA-in-Java/tree/master/3727-maximum-alternating-sum-of-squares) |
 ## Geometry
 |  |
 | ------- |
@@ -119,6 +121,7 @@
 | [2965-find-missing-and-repeated-values](https://github.com/shivansh1512x/DSA-in-Java/tree/master/2965-find-missing-and-repeated-values) |
 | [3524-find-x-value-of-array-i](https://github.com/shivansh1512x/DSA-in-Java/tree/master/3524-find-x-value-of-array-i) |
 | [3525-find-x-value-of-array-ii](https://github.com/shivansh1512x/DSA-in-Java/tree/master/3525-find-x-value-of-array-ii) |
+| [3727-maximum-alternating-sum-of-squares](https://github.com/shivansh1512x/DSA-in-Java/tree/master/3727-maximum-alternating-sum-of-squares) |
 ## Divide and Conquer
 |  |
 | ------- |
