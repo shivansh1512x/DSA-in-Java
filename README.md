@@ -83,6 +83,7 @@
 | [0268-missing-number](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0268-missing-number) |
 | [0912-sort-an-array](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0912-sort-an-array) |
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/shivansh1512x/DSA-in-Java/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
+| [2089-find-target-indices-after-sorting-array](https://github.com/shivansh1512x/DSA-in-Java/tree/master/2089-find-target-indices-after-sorting-array) |
 | [2333-minimum-sum-of-squared-difference](https://github.com/shivansh1512x/DSA-in-Java/tree/master/2333-minimum-sum-of-squared-difference) |
 | [3551-minimum-swaps-to-sort-by-digit-sum](https://github.com/shivansh1512x/DSA-in-Java/tree/master/3551-minimum-swaps-to-sort-by-digit-sum) |
 | [3727-maximum-alternating-sum-of-squares](https://github.com/shivansh1512x/DSA-in-Java/tree/master/3727-maximum-alternating-sum-of-squares) |
@@ -124,6 +125,7 @@
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/shivansh1512x/DSA-in-Java/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 | [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/shivansh1512x/DSA-in-Java/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
 | [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/shivansh1512x/DSA-in-Java/tree/master/1807-evaluate-the-bracket-pairs-of-a-string) |
+| [2089-find-target-indices-after-sorting-array](https://github.com/shivansh1512x/DSA-in-Java/tree/master/2089-find-target-indices-after-sorting-array) |
 | [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/shivansh1512x/DSA-in-Java/tree/master/2267-check-if-there-is-a-valid-parentheses-string-path) |
 | [2333-minimum-sum-of-squared-difference](https://github.com/shivansh1512x/DSA-in-Java/tree/master/2333-minimum-sum-of-squared-difference) |
 | [2778-sum-of-squares-of-special-elements](https://github.com/shivansh1512x/DSA-in-Java/tree/master/2778-sum-of-squares-of-special-elements) |
@@ -199,6 +201,7 @@
 | [0209-minimum-size-subarray-sum](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0209-minimum-size-subarray-sum) |
 | [0268-missing-number](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0268-missing-number) |
 | [1004-max-consecutive-ones-iii](https://github.com/shivansh1512x/DSA-in-Java/tree/master/1004-max-consecutive-ones-iii) |
+| [2089-find-target-indices-after-sorting-array](https://github.com/shivansh1512x/DSA-in-Java/tree/master/2089-find-target-indices-after-sorting-array) |
 | [2333-minimum-sum-of-squared-difference](https://github.com/shivansh1512x/DSA-in-Java/tree/master/2333-minimum-sum-of-squared-difference) |
 ## Queue
 |  |
