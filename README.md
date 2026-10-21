@@ -17,6 +17,7 @@
 ## Dynamic Programming
 |  |
 | ------- |
+| [0032-longest-valid-parentheses](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0032-longest-valid-parentheses) |
 | [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/shivansh1512x/DSA-in-Java/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
 | [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/shivansh1512x/DSA-in-Java/tree/master/1621-number-of-sets-of-k-non-overlapping-line-segments) |
 | [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/shivansh1512x/DSA-in-Java/tree/master/2267-check-if-there-is-a-valid-parentheses-string-path) |
@@ -54,6 +55,7 @@
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0020-valid-parentheses) |
+| [0032-longest-valid-parentheses](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0032-longest-valid-parentheses) |
 | [0301-remove-invalid-parentheses](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0301-remove-invalid-parentheses) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [1021-remove-outermost-parentheses](https://github.com/shivansh1512x/DSA-in-Java/tree/master/1021-remove-outermost-parentheses) |
@@ -243,6 +245,7 @@
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0020-valid-parentheses) |
+| [0032-longest-valid-parentheses](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0032-longest-valid-parentheses) |
 | [0155-min-stack](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0155-min-stack) |
 | [0234-palindrome-linked-list](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0234-palindrome-linked-list) |
 | [0682-baseball-game](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0682-baseball-game) |
@@ -287,6 +290,7 @@
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0020-valid-parentheses) |
+| [0032-longest-valid-parentheses](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0032-longest-valid-parentheses) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [1021-remove-outermost-parentheses](https://github.com/shivansh1512x/DSA-in-Java/tree/master/1021-remove-outermost-parentheses) |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/shivansh1512x/DSA-in-Java/tree/master/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
