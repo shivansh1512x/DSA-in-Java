@@ -141,6 +141,7 @@
 | [3524-find-x-value-of-array-i](https://github.com/shivansh1512x/DSA-in-Java/tree/master/3524-find-x-value-of-array-i) |
 | [3525-find-x-value-of-array-ii](https://github.com/shivansh1512x/DSA-in-Java/tree/master/3525-find-x-value-of-array-ii) |
 | [3551-minimum-swaps-to-sort-by-digit-sum](https://github.com/shivansh1512x/DSA-in-Java/tree/master/3551-minimum-swaps-to-sort-by-digit-sum) |
+| [3644-maximum-k-to-sort-a-permutation](https://github.com/shivansh1512x/DSA-in-Java/tree/master/3644-maximum-k-to-sort-a-permutation) |
 | [3727-maximum-alternating-sum-of-squares](https://github.com/shivansh1512x/DSA-in-Java/tree/master/3727-maximum-alternating-sum-of-squares) |
 | [3886-sum-of-sortable-integers](https://github.com/shivansh1512x/DSA-in-Java/tree/master/3886-sum-of-sortable-integers) |
 | [3942-minimum-operations-to-sort-a-permutation](https://github.com/shivansh1512x/DSA-in-Java/tree/master/3942-minimum-operations-to-sort-a-permutation) |
@@ -242,6 +243,7 @@
 | [0090-subsets-ii](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0090-subsets-ii) |
 | [0268-missing-number](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0268-missing-number) |
 | [2897-apply-operations-on-array-to-maximize-sum-of-squares](https://github.com/shivansh1512x/DSA-in-Java/tree/master/2897-apply-operations-on-array-to-maximize-sum-of-squares) |
+| [3644-maximum-k-to-sort-a-permutation](https://github.com/shivansh1512x/DSA-in-Java/tree/master/3644-maximum-k-to-sort-a-permutation) |
 ## Stack
 |  |
 | ------- |
