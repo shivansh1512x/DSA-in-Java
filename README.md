@@ -128,6 +128,7 @@
 | [0724-find-pivot-index](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0724-find-pivot-index) |
 | [0912-sort-an-array](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0912-sort-an-array) |
 | [1004-max-consecutive-ones-iii](https://github.com/shivansh1512x/DSA-in-Java/tree/master/1004-max-consecutive-ones-iii) |
+| [1254-number-of-closed-islands](https://github.com/shivansh1512x/DSA-in-Java/tree/master/1254-number-of-closed-islands) |
 | [1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold](https://github.com/shivansh1512x/DSA-in-Java/tree/master/1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/shivansh1512x/DSA-in-Java/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 | [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/shivansh1512x/DSA-in-Java/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
@@ -267,12 +268,14 @@
 ## Matrix
 |  |
 | ------- |
+| [1254-number-of-closed-islands](https://github.com/shivansh1512x/DSA-in-Java/tree/master/1254-number-of-closed-islands) |
 | [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/shivansh1512x/DSA-in-Java/tree/master/2267-check-if-there-is-a-valid-parentheses-string-path) |
 | [2965-find-missing-and-repeated-values](https://github.com/shivansh1512x/DSA-in-Java/tree/master/2965-find-missing-and-repeated-values) |
 ## Depth-First Search
 |  |
 | ------- |
 | [0430-flatten-a-multilevel-doubly-linked-list](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0430-flatten-a-multilevel-doubly-linked-list) |
+| [1254-number-of-closed-islands](https://github.com/shivansh1512x/DSA-in-Java/tree/master/1254-number-of-closed-islands) |
 ## Doubly-Linked List
 |  |
 | ------- |
@@ -311,6 +314,7 @@
 |  |
 | ------- |
 | [0301-remove-invalid-parentheses](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0301-remove-invalid-parentheses) |
+| [1254-number-of-closed-islands](https://github.com/shivansh1512x/DSA-in-Java/tree/master/1254-number-of-closed-islands) |
 ## Enumeration
 |  |
 | ------- |
@@ -328,6 +332,7 @@
 ## Union-Find
 |  |
 | ------- |
+| [1254-number-of-closed-islands](https://github.com/shivansh1512x/DSA-in-Java/tree/master/1254-number-of-closed-islands) |
 | [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/shivansh1512x/DSA-in-Java/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
 ## Binary Search Tree
 |  |
