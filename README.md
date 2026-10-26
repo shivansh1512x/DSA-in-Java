@@ -144,6 +144,7 @@
 | [3524-find-x-value-of-array-i](https://github.com/shivansh1512x/DSA-in-Java/tree/master/3524-find-x-value-of-array-i) |
 | [3525-find-x-value-of-array-ii](https://github.com/shivansh1512x/DSA-in-Java/tree/master/3525-find-x-value-of-array-ii) |
 | [3551-minimum-swaps-to-sort-by-digit-sum](https://github.com/shivansh1512x/DSA-in-Java/tree/master/3551-minimum-swaps-to-sort-by-digit-sum) |
+| [3619-count-islands-with-total-value-divisible-by-k](https://github.com/shivansh1512x/DSA-in-Java/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
 | [3644-maximum-k-to-sort-a-permutation](https://github.com/shivansh1512x/DSA-in-Java/tree/master/3644-maximum-k-to-sort-a-permutation) |
 | [3727-maximum-alternating-sum-of-squares](https://github.com/shivansh1512x/DSA-in-Java/tree/master/3727-maximum-alternating-sum-of-squares) |
 | [3886-sum-of-sortable-integers](https://github.com/shivansh1512x/DSA-in-Java/tree/master/3886-sum-of-sortable-integers) |
@@ -271,11 +272,13 @@
 | [1254-number-of-closed-islands](https://github.com/shivansh1512x/DSA-in-Java/tree/master/1254-number-of-closed-islands) |
 | [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/shivansh1512x/DSA-in-Java/tree/master/2267-check-if-there-is-a-valid-parentheses-string-path) |
 | [2965-find-missing-and-repeated-values](https://github.com/shivansh1512x/DSA-in-Java/tree/master/2965-find-missing-and-repeated-values) |
+| [3619-count-islands-with-total-value-divisible-by-k](https://github.com/shivansh1512x/DSA-in-Java/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
 ## Depth-First Search
 |  |
 | ------- |
 | [0430-flatten-a-multilevel-doubly-linked-list](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0430-flatten-a-multilevel-doubly-linked-list) |
 | [1254-number-of-closed-islands](https://github.com/shivansh1512x/DSA-in-Java/tree/master/1254-number-of-closed-islands) |
+| [3619-count-islands-with-total-value-divisible-by-k](https://github.com/shivansh1512x/DSA-in-Java/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
 ## Doubly-Linked List
 |  |
 | ------- |
@@ -315,6 +318,7 @@
 | ------- |
 | [0301-remove-invalid-parentheses](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0301-remove-invalid-parentheses) |
 | [1254-number-of-closed-islands](https://github.com/shivansh1512x/DSA-in-Java/tree/master/1254-number-of-closed-islands) |
+| [3619-count-islands-with-total-value-divisible-by-k](https://github.com/shivansh1512x/DSA-in-Java/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
 ## Enumeration
 |  |
 | ------- |
@@ -334,6 +338,7 @@
 | ------- |
 | [1254-number-of-closed-islands](https://github.com/shivansh1512x/DSA-in-Java/tree/master/1254-number-of-closed-islands) |
 | [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/shivansh1512x/DSA-in-Java/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
+| [3619-count-islands-with-total-value-divisible-by-k](https://github.com/shivansh1512x/DSA-in-Java/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
 ## Binary Search Tree
 |  |
 | ------- |
