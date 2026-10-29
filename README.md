@@ -70,6 +70,7 @@
 | [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/shivansh1512x/DSA-in-Java/tree/master/1807-evaluate-the-bracket-pairs-of-a-string) |
 | [2409-count-days-spent-together](https://github.com/shivansh1512x/DSA-in-Java/tree/master/2409-count-days-spent-together) |
 | [3498-reverse-degree-of-a-string](https://github.com/shivansh1512x/DSA-in-Java/tree/master/3498-reverse-degree-of-a-string) |
+| [3841-palindromic-path-queries-in-a-tree](https://github.com/shivansh1512x/DSA-in-Java/tree/master/3841-palindromic-path-queries-in-a-tree) |
 | [3863-minimum-operations-to-sort-a-string](https://github.com/shivansh1512x/DSA-in-Java/tree/master/3863-minimum-operations-to-sort-a-string) |
 ## Greedy
 |  |
@@ -148,6 +149,7 @@
 | [3619-count-islands-with-total-value-divisible-by-k](https://github.com/shivansh1512x/DSA-in-Java/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
 | [3644-maximum-k-to-sort-a-permutation](https://github.com/shivansh1512x/DSA-in-Java/tree/master/3644-maximum-k-to-sort-a-permutation) |
 | [3727-maximum-alternating-sum-of-squares](https://github.com/shivansh1512x/DSA-in-Java/tree/master/3727-maximum-alternating-sum-of-squares) |
+| [3841-palindromic-path-queries-in-a-tree](https://github.com/shivansh1512x/DSA-in-Java/tree/master/3841-palindromic-path-queries-in-a-tree) |
 | [3882-minimum-xor-path-in-a-grid](https://github.com/shivansh1512x/DSA-in-Java/tree/master/3882-minimum-xor-path-in-a-grid) |
 | [3886-sum-of-sortable-integers](https://github.com/shivansh1512x/DSA-in-Java/tree/master/3886-sum-of-sortable-integers) |
 | [3942-minimum-operations-to-sort-a-permutation](https://github.com/shivansh1512x/DSA-in-Java/tree/master/3942-minimum-operations-to-sort-a-permutation) |
@@ -157,6 +159,7 @@
 | [0169-majority-element](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0169-majority-element) |
 | [0912-sort-an-array](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0912-sort-an-array) |
 | [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/shivansh1512x/DSA-in-Java/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
+| [3841-palindromic-path-queries-in-a-tree](https://github.com/shivansh1512x/DSA-in-Java/tree/master/3841-palindromic-path-queries-in-a-tree) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -250,6 +253,7 @@
 | [0268-missing-number](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0268-missing-number) |
 | [2897-apply-operations-on-array-to-maximize-sum-of-squares](https://github.com/shivansh1512x/DSA-in-Java/tree/master/2897-apply-operations-on-array-to-maximize-sum-of-squares) |
 | [3644-maximum-k-to-sort-a-permutation](https://github.com/shivansh1512x/DSA-in-Java/tree/master/3644-maximum-k-to-sort-a-permutation) |
+| [3841-palindromic-path-queries-in-a-tree](https://github.com/shivansh1512x/DSA-in-Java/tree/master/3841-palindromic-path-queries-in-a-tree) |
 | [3882-minimum-xor-path-in-a-grid](https://github.com/shivansh1512x/DSA-in-Java/tree/master/3882-minimum-xor-path-in-a-grid) |
 ## Stack
 |  |
@@ -283,6 +287,7 @@
 | [0430-flatten-a-multilevel-doubly-linked-list](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0430-flatten-a-multilevel-doubly-linked-list) |
 | [1254-number-of-closed-islands](https://github.com/shivansh1512x/DSA-in-Java/tree/master/1254-number-of-closed-islands) |
 | [3619-count-islands-with-total-value-divisible-by-k](https://github.com/shivansh1512x/DSA-in-Java/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
+| [3841-palindromic-path-queries-in-a-tree](https://github.com/shivansh1512x/DSA-in-Java/tree/master/3841-palindromic-path-queries-in-a-tree) |
 ## Doubly-Linked List
 |  |
 | ------- |
@@ -301,6 +306,7 @@
 | [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/shivansh1512x/DSA-in-Java/tree/master/2913-subarrays-distinct-element-sum-of-squares-i) |
 | [2916-subarrays-distinct-element-sum-of-squares-ii](https://github.com/shivansh1512x/DSA-in-Java/tree/master/2916-subarrays-distinct-element-sum-of-squares-ii) |
 | [3525-find-x-value-of-array-ii](https://github.com/shivansh1512x/DSA-in-Java/tree/master/3525-find-x-value-of-array-ii) |
+| [3841-palindromic-path-queries-in-a-tree](https://github.com/shivansh1512x/DSA-in-Java/tree/master/3841-palindromic-path-queries-in-a-tree) |
 ## Bracket Sequences
 |  |
 | ------- |
@@ -333,10 +339,12 @@
 | ------- |
 | [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/shivansh1512x/DSA-in-Java/tree/master/2913-subarrays-distinct-element-sum-of-squares-i) |
 | [2916-subarrays-distinct-element-sum-of-squares-ii](https://github.com/shivansh1512x/DSA-in-Java/tree/master/2916-subarrays-distinct-element-sum-of-squares-ii) |
+| [3841-palindromic-path-queries-in-a-tree](https://github.com/shivansh1512x/DSA-in-Java/tree/master/3841-palindromic-path-queries-in-a-tree) |
 ## Tree
 |  |
 | ------- |
 | [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/shivansh1512x/DSA-in-Java/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
+| [3841-palindromic-path-queries-in-a-tree](https://github.com/shivansh1512x/DSA-in-Java/tree/master/3841-palindromic-path-queries-in-a-tree) |
 ## Union-Find
 |  |
 | ------- |
