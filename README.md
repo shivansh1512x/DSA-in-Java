@@ -7,6 +7,7 @@
 | [0002-add-two-numbers](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0002-add-two-numbers) |
 | [0268-missing-number](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0268-missing-number) |
 | [0453-minimum-moves-to-equal-array-elements](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0453-minimum-moves-to-equal-array-elements) |
+| [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [1401-circle-and-rectangle-overlapping](https://github.com/shivansh1512x/DSA-in-Java/tree/master/1401-circle-and-rectangle-overlapping) |
 | [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/shivansh1512x/DSA-in-Java/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
 | [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/shivansh1512x/DSA-in-Java/tree/master/1621-number-of-sets-of-k-non-overlapping-line-segments) |
@@ -91,6 +92,7 @@
 | [0147-insertion-sort-list](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0147-insertion-sort-list) |
 | [0169-majority-element](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0169-majority-element) |
 | [0268-missing-number](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0268-missing-number) |
+| [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0912-sort-an-array](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0912-sort-an-array) |
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/shivansh1512x/DSA-in-Java/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
 | [2089-find-target-indices-after-sorting-array](https://github.com/shivansh1512x/DSA-in-Java/tree/master/2089-find-target-indices-after-sorting-array) |
@@ -128,6 +130,7 @@
 | [0268-missing-number](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0268-missing-number) |
 | [0453-minimum-moves-to-equal-array-elements](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0453-minimum-moves-to-equal-array-elements) |
 | [0457-circular-array-loop](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0457-circular-array-loop) |
+| [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0643-maximum-average-subarray-i](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0643-maximum-average-subarray-i) |
 | [0682-baseball-game](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0682-baseball-game) |
 | [0724-find-pivot-index](https://github.com/shivansh1512x/DSA-in-Java/tree/master/0724-find-pivot-index) |
