@@ -26,6 +26,7 @@
 | [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/shivansh1512x/DSA-in-Java/tree/master/1621-number-of-sets-of-k-non-overlapping-line-segments) |
 | [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/shivansh1512x/DSA-in-Java/tree/master/2267-check-if-there-is-a-valid-parentheses-string-path) |
 | [3524-find-x-value-of-array-i](https://github.com/shivansh1512x/DSA-in-Java/tree/master/3524-find-x-value-of-array-i) |
+| [3693-climbing-stairs-ii](https://github.com/shivansh1512x/DSA-in-Java/tree/master/3693-climbing-stairs-ii) |
 | [3882-minimum-xor-path-in-a-grid](https://github.com/shivansh1512x/DSA-in-Java/tree/master/3882-minimum-xor-path-in-a-grid) |
 ## Combinatorics
 |  |
@@ -160,6 +161,7 @@
 | [3551-minimum-swaps-to-sort-by-digit-sum](https://github.com/shivansh1512x/DSA-in-Java/tree/master/3551-minimum-swaps-to-sort-by-digit-sum) |
 | [3619-count-islands-with-total-value-divisible-by-k](https://github.com/shivansh1512x/DSA-in-Java/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
 | [3644-maximum-k-to-sort-a-permutation](https://github.com/shivansh1512x/DSA-in-Java/tree/master/3644-maximum-k-to-sort-a-permutation) |
+| [3693-climbing-stairs-ii](https://github.com/shivansh1512x/DSA-in-Java/tree/master/3693-climbing-stairs-ii) |
 | [3727-maximum-alternating-sum-of-squares](https://github.com/shivansh1512x/DSA-in-Java/tree/master/3727-maximum-alternating-sum-of-squares) |
 | [3736-minimum-moves-to-equal-array-elements-iii](https://github.com/shivansh1512x/DSA-in-Java/tree/master/3736-minimum-moves-to-equal-array-elements-iii) |
 | [3841-palindromic-path-queries-in-a-tree](https://github.com/shivansh1512x/DSA-in-Java/tree/master/3841-palindromic-path-queries-in-a-tree) |
