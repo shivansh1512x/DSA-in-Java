@@ -1,0 +1,63 @@
+
+import java.util.*;
+
+class Solution {
+    public long countNonDecreasingSubarrays(int[] nums, int k) {
+
+        int n = nums.length;
+
+        // Stores {value, count}
+        Deque<int[]> deque = new ArrayDeque<>();
+
+        long cost = 0;
+        long ans = 0;
+
+        int right = n - 1;
+
+        for (int left = n - 1; left >= 0; left--) {
+
+            int num = nums[left];
+            int count = 1;
+
+            // Merge smaller elements
+            while (!deque.isEmpty() &&
+                   deque.peekLast()[0] < num) {
+
+                int[] last = deque.pollLast();
+
+                int value = last[0];
+                int cnt = last[1];
+
+                count += cnt;
+
+                cost += (long) (num - value) * cnt;
+            }
+
+            deque.offerLast(new int[]{num, count});
+
+            // Maintain cost <= k
+            while (cost > k) {
+
+                int[] first = deque.pollFirst();
+
+                int value = first[0];
+                int cnt = first[1];
+
+                cost -= (long) (value - nums[right]);
+
+                right--;
+
+                if (cnt > 1) {
+                    deque.offerFirst(
+                        new int[]{value, cnt - 1}
+                    );
+                }
+            }
+
+            // Count valid subarrays
+            ans += right - left + 1;
+        }
+
+        return ans;
+    }
+}
