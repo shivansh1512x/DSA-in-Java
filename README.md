@@ -29,6 +29,7 @@
 | [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/shivansh1512x/DSA-in-Java/tree/master/1621-number-of-sets-of-k-non-overlapping-line-segments) |
 | [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/shivansh1512x/DSA-in-Java/tree/master/2267-check-if-there-is-a-valid-parentheses-string-path) |
 | [2911-minimum-changes-to-make-k-semi-palindromes](https://github.com/shivansh1512x/DSA-in-Java/tree/master/2911-minimum-changes-to-make-k-semi-palindromes) |
+| [3041-maximize-consecutive-elements-in-an-array-after-modification](https://github.com/shivansh1512x/DSA-in-Java/tree/master/3041-maximize-consecutive-elements-in-an-array-after-modification) |
 | [3524-find-x-value-of-array-i](https://github.com/shivansh1512x/DSA-in-Java/tree/master/3524-find-x-value-of-array-i) |
 | [3693-climbing-stairs-ii](https://github.com/shivansh1512x/DSA-in-Java/tree/master/3693-climbing-stairs-ii) |
 | [3882-minimum-xor-path-in-a-grid](https://github.com/shivansh1512x/DSA-in-Java/tree/master/3882-minimum-xor-path-in-a-grid) |
@@ -110,6 +111,7 @@
 | [2089-find-target-indices-after-sorting-array](https://github.com/shivansh1512x/DSA-in-Java/tree/master/2089-find-target-indices-after-sorting-array) |
 | [2333-minimum-sum-of-squared-difference](https://github.com/shivansh1512x/DSA-in-Java/tree/master/2333-minimum-sum-of-squared-difference) |
 | [2567-minimum-score-by-changing-two-elements](https://github.com/shivansh1512x/DSA-in-Java/tree/master/2567-minimum-score-by-changing-two-elements) |
+| [3041-maximize-consecutive-elements-in-an-array-after-modification](https://github.com/shivansh1512x/DSA-in-Java/tree/master/3041-maximize-consecutive-elements-in-an-array-after-modification) |
 | [3551-minimum-swaps-to-sort-by-digit-sum](https://github.com/shivansh1512x/DSA-in-Java/tree/master/3551-minimum-swaps-to-sort-by-digit-sum) |
 | [3727-maximum-alternating-sum-of-squares](https://github.com/shivansh1512x/DSA-in-Java/tree/master/3727-maximum-alternating-sum-of-squares) |
 | [3886-sum-of-sortable-integers](https://github.com/shivansh1512x/DSA-in-Java/tree/master/3886-sum-of-sortable-integers) |
@@ -168,6 +170,7 @@
 | [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/shivansh1512x/DSA-in-Java/tree/master/2913-subarrays-distinct-element-sum-of-squares-i) |
 | [2916-subarrays-distinct-element-sum-of-squares-ii](https://github.com/shivansh1512x/DSA-in-Java/tree/master/2916-subarrays-distinct-element-sum-of-squares-ii) |
 | [2965-find-missing-and-repeated-values](https://github.com/shivansh1512x/DSA-in-Java/tree/master/2965-find-missing-and-repeated-values) |
+| [3041-maximize-consecutive-elements-in-an-array-after-modification](https://github.com/shivansh1512x/DSA-in-Java/tree/master/3041-maximize-consecutive-elements-in-an-array-after-modification) |
 | [3524-find-x-value-of-array-i](https://github.com/shivansh1512x/DSA-in-Java/tree/master/3524-find-x-value-of-array-i) |
 | [3525-find-x-value-of-array-ii](https://github.com/shivansh1512x/DSA-in-Java/tree/master/3525-find-x-value-of-array-ii) |
 | [3551-minimum-swaps-to-sort-by-digit-sum](https://github.com/shivansh1512x/DSA-in-Java/tree/master/3551-minimum-swaps-to-sort-by-digit-sum) |
