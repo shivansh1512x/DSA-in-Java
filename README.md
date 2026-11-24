@@ -15,6 +15,7 @@
 | [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/shivansh1512x/DSA-in-Java/tree/master/1621-number-of-sets-of-k-non-overlapping-line-segments) |
 | [2409-count-days-spent-together](https://github.com/shivansh1512x/DSA-in-Java/tree/master/2409-count-days-spent-together) |
 | [2965-find-missing-and-repeated-values](https://github.com/shivansh1512x/DSA-in-Java/tree/master/2965-find-missing-and-repeated-values) |
+| [3411-maximum-subarray-with-equal-products](https://github.com/shivansh1512x/DSA-in-Java/tree/master/3411-maximum-subarray-with-equal-products) |
 | [3524-find-x-value-of-array-i](https://github.com/shivansh1512x/DSA-in-Java/tree/master/3524-find-x-value-of-array-i) |
 | [3525-find-x-value-of-array-ii](https://github.com/shivansh1512x/DSA-in-Java/tree/master/3525-find-x-value-of-array-ii) |
 | [3723-maximize-sum-of-squares-of-digits](https://github.com/shivansh1512x/DSA-in-Java/tree/master/3723-maximize-sum-of-squares-of-digits) |
@@ -178,6 +179,7 @@
 | [2965-find-missing-and-repeated-values](https://github.com/shivansh1512x/DSA-in-Java/tree/master/2965-find-missing-and-repeated-values) |
 | [3041-maximize-consecutive-elements-in-an-array-after-modification](https://github.com/shivansh1512x/DSA-in-Java/tree/master/3041-maximize-consecutive-elements-in-an-array-after-modification) |
 | [3331-find-subtree-sizes-after-changes](https://github.com/shivansh1512x/DSA-in-Java/tree/master/3331-find-subtree-sizes-after-changes) |
+| [3411-maximum-subarray-with-equal-products](https://github.com/shivansh1512x/DSA-in-Java/tree/master/3411-maximum-subarray-with-equal-products) |
 | [3524-find-x-value-of-array-i](https://github.com/shivansh1512x/DSA-in-Java/tree/master/3524-find-x-value-of-array-i) |
 | [3525-find-x-value-of-array-ii](https://github.com/shivansh1512x/DSA-in-Java/tree/master/3525-find-x-value-of-array-ii) |
 | [3551-minimum-swaps-to-sort-by-digit-sum](https://github.com/shivansh1512x/DSA-in-Java/tree/master/3551-minimum-swaps-to-sort-by-digit-sum) |
@@ -256,6 +258,7 @@
 | [1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold](https://github.com/shivansh1512x/DSA-in-Java/tree/master/1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/shivansh1512x/DSA-in-Java/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/shivansh1512x/DSA-in-Java/tree/master/1456-maximum-number-of-vowels-in-a-substring-of-given-length) |
+| [3411-maximum-subarray-with-equal-products](https://github.com/shivansh1512x/DSA-in-Java/tree/master/3411-maximum-subarray-with-equal-products) |
 ## Binary Search
 |  |
 | ------- |
@@ -384,6 +387,7 @@
 |  |
 | ------- |
 | [2778-sum-of-squares-of-special-elements](https://github.com/shivansh1512x/DSA-in-Java/tree/master/2778-sum-of-squares-of-special-elements) |
+| [3411-maximum-subarray-with-equal-products](https://github.com/shivansh1512x/DSA-in-Java/tree/master/3411-maximum-subarray-with-equal-products) |
 | [3886-sum-of-sortable-integers](https://github.com/shivansh1512x/DSA-in-Java/tree/master/3886-sum-of-sortable-integers) |
 ## Binary Indexed Tree
 |  |
@@ -432,4 +436,8 @@
 |  |
 | ------- |
 | [1606-find-servers-that-handled-most-number-of-requests](https://github.com/shivansh1512x/DSA-in-Java/tree/master/1606-find-servers-that-handled-most-number-of-requests) |
+## Number Theory
+|  |
+| ------- |
+| [3411-maximum-subarray-with-equal-products](https://github.com/shivansh1512x/DSA-in-Java/tree/master/3411-maximum-subarray-with-equal-products) |
 <!---LeetCode Topics End-->
